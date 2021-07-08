@@ -2,5 +2,11 @@
     "name": "typescript",
     "version": "0.0.0",
     "private": true,
-    "dependencies": {}
-  }
+    "scripts": {
+        "postinstall": "husky install"
+      },
+    "dependencies": {},
+    "devDependencies": {
+        "husky": "^7.0.1"
+    }
+}
