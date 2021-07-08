@@ -1,3 +1,4 @@
+// interface
 interface Subject {
   registerObserver(o: Observer);
   removeObserver(o: Observer);
