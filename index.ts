@@ -26,6 +26,7 @@ elements += `<ul>
 <li>State Pattern</li>
 </ul>`;
 appDiv.innerHTML = elements;
+// === typescript-design-patterns ===
 //=========== Decorator Pattern ===========
 let myTesla = new ModelS();
 myTesla = new SmartAirSuspension(myTesla);
