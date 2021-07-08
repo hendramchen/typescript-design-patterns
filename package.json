@@ -4,9 +4,10 @@
     "private": true,
     "scripts": {
         "postinstall": "husky install"
-      },
+    },
     "dependencies": {},
     "devDependencies": {
+        "commitizen": "^4.2.4",
         "husky": "^7.0.1"
     }
 }
